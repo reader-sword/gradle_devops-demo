@@ -5,7 +5,7 @@ pipeline {
     }
     environment {
         //该docker url是tdc上安装的harbor的地址
-        DOCKER_REPO_URL  = "172.18.28.37:31165"
+        DOCKER_REPO_URL  = "172.18.28.37:32702"
     }
     stages {
         stage('Gold Deploy') {
