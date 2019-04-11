@@ -12,10 +12,10 @@ pipeline {
             environment {
                 releaseStagingId = "release"
                 releaseRepoName = "maven-releases"
-                releaseRepoUrl = "http://172.18.28.37:31269/repository/maven-releases"
+                releaseRepoUrl = "http://172.18.28.37:30663/repository/maven-releases"
                 snapStagingId = "snapshots"
                 snapRepoName = "maven-snapshots"
-                snapRepoUrl = "http://172.18.28.37:31269/repository/maven-snapshots"
+                snapRepoUrl = "http://172.18.28.37:30663/repository/maven-snapshots"
                 BUILDER = "gold"
                 IMAGE_TAG = "master"
                 JAVA_HOME = "/usr/jdk-8u131-linux-x64.tar/jdk1.8.0_131/"
