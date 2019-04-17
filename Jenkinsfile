@@ -28,9 +28,8 @@ pipeline {
                     cd src/docker && docker build . -t devops-demo:latest
                     docker tag devops-demo:latest ${DOCKER_REPO_URL}/${BUILDER}/devops-demo:${IMAGE_TAG}
                     docker push ${DOCKER_REPO_URL}/${BUILDER}/devops-demo:${IMAGE_TAG}
-                   // docker pull ${DOCKER_REPO_URL}/${BUILDER}/devops-demo:${IMAGE_TAG}
-                    docker images | grep devops-demo
-                    '''
+                     docker images | grep devops-demo'''
+                    //docker pull ${DOCKER_REPO_URL}/${BUILDER}/devops-demo:${IMAGE_TAG}
                    
                 }
             }
