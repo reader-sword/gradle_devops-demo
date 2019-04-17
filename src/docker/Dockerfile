@@ -1,5 +1,5 @@
 FROM java:8-jdk-alpine
-MAINTAINER lyy <lyy@163.com>
+MAINTAINER  <@transwarp>
 
 ENV TZ "Asia/Shanghai"
 
